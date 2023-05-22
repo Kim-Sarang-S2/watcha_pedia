@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>왓챠피디아 클론 코딩</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="header_wrap">
+            <div id="left">
+                <img src="img/logo.png" height="53px" alt="">
+                <ul class="list">
+                    <li>영화</li>
+                    <li>TV</li>
+                    <li>책</li>
+                    <li>웹툰</li>
+                </ul>
+            </div>
+            <div id="right">
+                <ul class="list">
+                    
+                    <li id="search">
+                        <i class="fa-solid fa-magnifying-glass" style="color: #cfcfcf;"></i>
+                        <input type="text" placeholder="콘텐츠, 인물, 컬렉션, 유저를 검색해보세요. "></li>
+                    <li><a href="#">로그인</a></li>
+                    <li id="sign_up_btn"><a href="#">회원가입</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div id="wrap">   
+        <section id="sec_01">
+            <h2 class="title">박스오피스 순위</h2>
+            <div class="container_wrap">
+                <div class="container">
+                    
+                    <div class="con">
+                        <div class="img_wrap">
+                            <img src="img/분노의질주.jpg" width="250" height="375" alt="">
+                            <div class="num">1</div>
+                        </div>
+                        <h3>분노의 질주: 라이드 오어 다이</h3>
+                        <h5>2023 &bull; 미국</h5>
+                        <h5>예매율 48%</h5>
+                    </div>
+
+                    <div class="con">
+                        <div class="img_wrap">
+                            <img src="img/가오갤.jpg" width="250" height="375" alt="">
+                            <div class="num">2</div>
+                        </div>
+                        <h3>가디언즈 오브 갤럭시 : Volume 3</h3>
+                        <h5>2023 &bull; 미국</h5>
+                        <h5>평균 &bigstar;4.1</h5>
+                        <h5>예매율 15% &bull; 누적 관객 280만명</h5>
+                    </div>
+
+                    <div class="con">
+                        <div class="img_wrap">
+                            <img src="img/범죄도시.jpg" width="250" height="375" alt="">
+                            <div class="num">3</div>
+                        </div>
+                        <h3>범죄도시3</h3>
+                        <h5>2023 &bull; 한국</h5>
+                        <h5>예매율 12%</h5>
+                    </div>
+
+                    <div class="con">
+                        <div class="img_wrap">
+                            <img src="img/문재인.jpg" width="250" height="375" alt="">
+                            <div class="num">4</div>
+                        </div>
+                        <h3>문재인입니다</h3>
+                        <h5>2023 &bull; 한국</h5>
+                        <h5>예매율 4.2% &bull; 누적 관객 8만명</h5>
+                    </div>
+
+                    <div class="con">
+                        <div class="img_wrap">
+                            <img src="img/슈마브.jpg" width="250" height="375" alt="">
+                            <div class="num">5</div>
+                        </div>
+                        <h3>슈퍼 마리오 브라더스</h3>
+                        <h5>2023 &bull; 미국</h5>
+                        <h5>예매율 3.1% &bull; 누적 관객 209만명</h5>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--  section02 -->
+        <section id="sec_02">
+            <h2 class="title">왓챠 Top 10 영화</h2>
+            <div class="container_wrap">
+                <div class="container">
+                    
+                    <div class="con">
+                        <div class="img_wrap">
+                            <img src="img/시맨틱에러.jpg" width="250" height="375" alt="">
+                            <div class="num">1</div>
+                        </div>
+                        <h3>시멘틱 에러: 더 무비</h3>
+                        <h5>2022 &bull; 한국</h5>
+                        <h5>평균 &bigstar;4.2</h5>
+                    </div>
+
+                    <div class="con">
+                        <div class="img_wrap">
+                            <img src="img/큐어.jpg" width="250" height="375" alt="">
+                            <div class="num">2</div>
+                        </div>
+                        <h3>큐어</h3>
+                        <h5>1997 &bull; 일본</h5>
+                        <h5>평균 &bigstar;4.0</h5>
+                    </div>
+
+                    <div class="con">
+                        <div class="img_wrap">
+                            <img src="img/천룡팔부.jpg" width="250" height="375" alt="">
+                            <div class="num">3</div>
+                        </div>
+                        <h3>천룡팔부: 교봉전</h3>
+                        <h5>2023 &bull; 홍콩</h5>
+                        <h5>평균 &bigstar;2.9</h5>
+
+                    </div>
+
+                    <div class="con">
+                        <div class="img_wrap">
+                            <img src="img/폴600.jpg" width="250" height="375" alt="">
+                            <div class="num">4</div>
+                        </div>
+                        <h3>폴: 600미터</h3>
+                        <h5>2022 &bull; 미국</h5>
+                        <h5>평균 &bigstar;3.2</h5>
+                    </div>
+
+                    <div class="con">
+                        <div class="img_wrap">
+                            <img src="img/김복남.jpg" width="250" height="375" alt="">
+                            <div class="num">5</div>
+                        </div>
+                        <h3>김복남 살인사건의 전말</h3>
+                        <h5>2023 &bull; 미국</h5>
+                        <h5>예매율 3.1% &bull; 누적 관객 209만명</h5>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="sec_03">
+
+            <h2 class="title">넷플릭스 영화 순위</h2>
+            <div class="container_wrap">
+                <div class="container">
+                    
+                    <div class="con">
+                        <div class="img_wrap">
+                            <img src="img/내이름은마더.jpg" width="250" height="375" alt="">
+                            <div class="num">1</div>
+                        </div>
+                        <h3>내 이름은 마더</h3>
+                        <h5>2023 &bull; 미국</h5>
+                        <h5>평균 &bigstar;2.5</h5>
+                    </div>
+
+                    <div class="con">
+                        <div class="img_wrap">
+                            <img src="img/영웅.jpg" width="250" height="375" alt="">
+                            <div class="num">2</div>
+                        </div>
+                        <h3>영웅</h3>
+                        <h5>2022 &bull; 한국</h5>
+                        <h5>평균 &bigstar;2.9</h5>
+                    </div>
+
+                    <div class="con">
+                        <div class="img_wrap">
+                            <img src="img/교섭.jpg" width="250" height="375" alt="">
+                            <div class="num">3</div>
+                        </div>
+                        <h3>교섭</h3>
+                        <h5>2022 &bull; 한국</h5>
+                        <h5>평균 &bigstar;2.4</h5>
+
+                    </div>
+
+                    <div class="con">
+                        <div class="img_wrap">
+                            <img src="img/어쩌면우린.jpg" width="250" height="375" alt="">
+                            <div class="num">4</div>
+                        </div>
+                        <h3>어쩌면 우린 헤어졌는지 모른다</h3>
+                        <h5>2021 &bull; 한국</h5>
+                        <h5>평균 &bigstar;2.9</h5>
+                    </div>
+
+                    <div class="con">
+                        <div class="img_wrap">
+                            <img src="img/길복순.jpg" width="250" height="375" alt="">
+                            <div class="num">5</div>
+                        </div>
+                        <h3>길복순</h3>
+                        <h5>2023 &bull; 한국</h5>
+                        <h5>평균 &bigstar;3.0</h5>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+       
+    </div>
+
+    <section id="sec_04">
+        <div id="center">
+            <span>지금까지 <span id="color">&bigstar; 691,419,057 개의 평가가</span> 쌓였어요.</span>
+        </div>
+    </section>
+    <footer>
+        <div id="footer_wrap">
+
+            <div id="foot_left">
+
+                <div class="foot_con">
+                    <h5> <a href="#">서비스 이용약관</a> &nbsp;&vert;&nbsp; <a href="#"> 개인정보 처리방침</a> &nbsp;&vert;&nbsp; <a href="#"> 회사 안내 </a></h5>
+                    <h5>고객센터 &nbsp;&vert;&nbsp; cs@watchapedia.co.kr, 02-515-9985</h5>
+                    <h5>광고 문의 &nbsp;&vert;&nbsp; ad_sales@watcha.com &bull; 최신 광고 소개서 <i class="fa-solid fa-arrow-down-to-line" style="color: #a5a5a5;"></i> </h5> 
+                    <h5>제휴 및 대외 협력 &nbsp;&vert;&nbsp; https://watcha.team/contact</h5>
+                </div>
+
+                <div class="foot_con">
+                    <h5>주식회사 왓챠 &nbsp;&vert;&nbsp; 대표 박태훈 &nbsp;&vert;&nbsp; 서울특별시 서초구 강남대로 343 신덕빌딩 3층</h5>
+                    <h5>사업자 등록 번호 211-88-66013</h5>
+                    <h5>WATCHA PEDIA &nbsp;&copy; 2022 by WATCHA, Inc. All rights reserved.</h5>
+                </div>
+                
+            </div>
+
+            <div id="foot_right">
+
+                <div class="foot_con">
+                    <div id="language"><span>한국어</span> <span>&#9660;</span> </div>
+                </div>
+
+                <div class="foot_con">
+                    <ul>
+                        <li class="social_media"></li>
+                        <li class="social_media"></li>
+                        <li class="social_media"></li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+
+  
+    <script src="https://kit.fontawesome.com/a563f706d0.js" crossorigin="anonymous"></script>
+</body>
+</html>
